@@ -1,6 +1,6 @@
-# Welcoem to the DIMA 456 organization 👋
+# Welcome to the DIMA 456 organization 👋
 
-### This is a place for learning about Bootstrap and https://github.com/dima-456.
+### This is a place for learning about Bootstrap and Github.
 
 It's where our sandbox repos will live, and where you can find resources and templates.
 
