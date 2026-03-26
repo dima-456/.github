@@ -6,5 +6,6 @@ It's where our sandbox repos will live, and where you can find resources and tem
 
 **Helpful links**
 - [WebP image conversion guide](https://github.com/dima-456/.github/blob/main/profile/webpguide.md)
+- [How to install Google Fonts](https://github.com/dima-456/.github/blob/main/profile/googlefonts.md)
 - [Class website](https://dima-456.github.io)
 - [Bootstrap](https://getbootstrap.com/)
