@@ -18,3 +18,4 @@ Choose what quality you would like your image to be. I have been doing 63, which
 
 ## How to convert .gifs to .webp using EZGif
 
+Exporting .gifs into .webp files in Photoshop can be really finnicky, and older Photoshop versions may not have the capability. I recommend using [ezgif.com](https://ezgif.com/gif-to-webp), which has a gif-to-webp converter (along with a huge variety of other tools)! 
