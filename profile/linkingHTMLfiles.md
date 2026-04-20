@@ -58,7 +58,44 @@ ______________________________________________
   </tr>
 </table>
 
-Go to our [example-page](https://github.com/dima-456/example-page) template repository and click the "Use this template" green button in the top right corner (not the green "Code" button!).
+Go to our [example-page](https://github.com/dima-456/example-page) template repository and **click the "Use this template" green button** in the top right corner (not the green "Code" button!).
+
+<img width="1381" height="455" alt="Screenshot 2026-04-19 at 6 41 27 PM" src="https://github.com/user-attachments/assets/800d58fb-c15f-44f5-a8d9-76164fbd59a1" />
+
+When you click the button, you will see two options. You want to then select "Create a new repository."
+
+<img width="265" height="116" alt="Screenshot 2026-04-19 at 8 19 40 PM" src="https://github.com/user-attachments/assets/d2ddd8c6-b665-46d3-88d2-dac52eb9b5ba" />
+
+When you select this option you will then see the typical page you see when you create a new repository. There are a couple important steps here.
+
+1. Make sure that the owner of the repository is you, and not the `dima-456` organization.
+2. The name of this repository will become the URL page name. For instance, if I name my repository "work," then the page link will be `<username>.github.io/work`.
+
+<img width="844" height="326" alt="Screenshot 2026-04-19 at 8 20 00 PM" src="https://github.com/user-attachments/assets/53d836d2-e183-4207-adfc-84460fac5bd8" />
+
+When you are redirected to the new repository on the Github website, click the "Settings" button on the far right of the menu bar.
+
+<img width="1288" height="164" alt="Screenshot 2026-04-19 at 11 01 30 PM" src="https://github.com/user-attachments/assets/2729f9d4-9789-4ce5-9b45-06387d409ade" />
+
+Once you are in the settings, click the "Pages" button at the bottom of the "Code and automation" section.
+
+<img width="352" height="661" alt="Screenshot 2026-04-19 at 11 01 47 PM" src="https://github.com/user-attachments/assets/576fa99f-abf7-463a-8eb4-b1898005c8b6" />
+
+Under the Branch section, select "main" and then save. 
+
+<img width="830" height="454" alt="Screenshot 2026-04-19 at 11 01 57 PM" src="https://github.com/user-attachments/assets/4408ab47-f0c4-49e7-ad8b-2fffc85524e6" />
+
+It may take a few minutes for the cache to break, but once it does you will be able to see this new repo live at `<username>.github.io/<repo-name>`.
+
+From here, you can clone the repo locally and work in it just like you work in any of the other repos. 
+
+**Don't forget**
+1. Don't clone the repo locally *into* your portfolio site repo. Make sure it lives outside of your `<username>.github.io` folder.
+2. The `styles` folder is empty. You will need to create a new `style.css` file in this folder to add your css for this page.
+3. You might have base styles in your `<username>.github.io` that you want applied to this repo as well. You can call in that repo's stylesheet to your new Github Page repo by adding this link above the `</head>` in your `index.html` file.
+`<link href="https://<username>.github.io/styles/style.css" rel="stylesheet">`
+
+
 
 
 
