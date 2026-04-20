@@ -2,7 +2,7 @@
 
 As you build your portfolio sites, you will need to create multiple pages (`work.html`, `about.html`, etc.). Here is detailed documentation on the two ways to do this, with the pros and cons for each.
 
-**Note: ** No matter which way you create and link pages, each repository **must** have an `index.html` file. This file will be the homepage of your site, and the first thing people see when they visit your URL. Even if you want that page to highlight all your work, it must be named `index.html`, not `work.html` or something similar.
+**IMPORTANT:** No matter which way you create and link pages, each repository **must** have an `index.html` file. This file will be the homepage of your site, and the first thing people see when they visit your URL. Even if you want that page to highlight all your work, it must be named `index.html`, not `work.html` or something similar.
 
 ## 1️⃣ Linking HTML pages in the same repo
 
@@ -12,12 +12,12 @@ As you build your portfolio sites, you will need to create multiple pages (`work
     <th>Cons</th>
   </tr>
   <tr>
-    <td>
-      1. Only maintain  one repo
-    </td>
-    <td>
-      1. Looks sloppier as a URL<br>
-      2. Makes your repo larger</td>
+    <td>Only maintain  one repo</td>
+    <td>Looks sloppier as a URL</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Makes your repo larger</td>
   </tr>
 </table>
 
@@ -39,7 +39,9 @@ With my `work.html` set up, I can now link to it from my other pages. For exampl
 
 <img width="400" height="109" alt="Screenshot 2026-04-19 at 6 02 45 PM" src="https://github.com/user-attachments/assets/3d0bfc7e-1998-4887-bc80-c234cbb6de24" />
 
-## 1️⃣ Creating new Github Pages repos
+______________________________________________
+
+## 2️⃣ Creating new Github Pages repos to link to
 
 <table>
   <tr>
@@ -47,12 +49,17 @@ With my `work.html` set up, I can now link to it from my other pages. For exampl
     <th>Cons</th>
   </tr>
   <tr>
-    <td>
-      1. Only maintain  one repo
-    </td>
-    <td>
-      1. Looks sloppier as a URL<br>
-      2. Makes your repo larger</td>
+    <td>Looks cleaner as a URL (url/work) instead of url/work.html)</td>
+    <td>Have to maintain multiple repositories</td>
+  </tr>
+  <tr>
+    <td>Can keep relative images in each page’s repo</td>
+    <td></td>
   </tr>
 </table>
+
+Go to our [example-page](https://github.com/dima-456/example-page) template repository and click the "Use this template" green button in the top right corner (not the green "Code" button!).
+
+
+
 
