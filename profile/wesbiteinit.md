@@ -6,7 +6,7 @@ In this walkthrough, you will learn the ways to set up your site to make sure it
 - What is SEO?
 - [Adding a site title](https://github.com/dima-456/.github/edit/main/profile/wesbiteinit.md#adding-a-site-title)
 - [Adding a site description](https://github.com/dima-456/.github/edit/main/profile/wesbiteinit.md#adding-a-site-description)
-- Adding a thumbnail image
+- [Adding a thumbnail image](https://github.com/dima-456/.github/edit/main/profile/wesbiteinit.md#adding-a-thumbnail-image)
 - Adding a favicon
 - Google analytics
 - Miscellaneous best practices
@@ -54,4 +54,35 @@ Here's an example of what my site description would be. It contains keywords tha
 (figuratively). Designing, developing, writing and editing for the Minnesota Star Tribune.">
 ```
 
-## Adding a site description
+## Adding a thumbnail image
+
+My site is looking good and I'm ready to share it with the world now. But when I go to text it to my friends, it looks like this. 
+
+![Screenshot of a link sent via text with no image](https://github.com/user-attachments/assets/2b453e33-3563-4703-9049-b4e22e6284cd)
+
+My site title is there, so that's good. But on the whole, this isn't a link that would encourage a click. And it's not just messaging — sharing this link on social media would result in the same treatment. To make our link more visually appealing and to encourage people to click into our site, we need to add a thumbnail iamge.
+
+```html
+<meta property="og:image" content="image-link-here">
+```
+
+Adding this line of code in the `<head>` of our `index.html` (or other page) will give our site a thumbnail image representation, which will give us better click-through rates. 
+
+Currently throughout your site, you probably have image links referenced like this: 
+
+```html
+<img src="images/catkeyboard.webp">
+```
+
+This is called a relative path. Your code is looking for a folder at the same level as the HTML file called `images`, going into that folder and finding the file named `catkeyboard.webp`
+
+For our thumbnail image, we need an absolute path. To find the absolute path, you will simply add your portfolio site URL in front of the relative path. 
+
+Add the thumbnail image you want to your images folder, and then make sure you have committed and pushed your repo. Now you should be able to visit https://**username**.githbub.io/images/**thumbnail**.webp and see that image in your browser. (Your username and your thumbnail image file name will be unique to you.)
+
+If so, you are good to copy that URL and place it between the quote marks in the `content=""` spot of the meta tag.
+
+
+```html
+<meta property="og:image" content="https://annaboone.github.io/images/catkeyboard.webp">
+```
