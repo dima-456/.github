@@ -82,7 +82,19 @@ Add the thumbnail image you want to your images folder, and then make sure you h
 
 If so, you are good to copy that URL and place it between the quote marks in the `content=""` spot of the meta tag.
 
+Some things to note:
+- WebP formats are accepted, which means you can have an animated image as your thumbnail if you want.
+- A variety of sizes can be supported, but a good starting place is 1200px x 650px. You could go up to a 3:4 or 2:3 ratio if you want a little more visual impact.
+- This image can vary page to page, or you can use the same image across all pages.
+- If you have created a logo for your site, that would be a good image option.
+
+I'm going to use my cat keyboard gif as my thumbnail image, so this is what I am adding to my site.
 
 ```html
 <meta property="og:image" content="https://annaboone.github.io/images/catkeyboard.webp">
 ```
+
+Now I can text all my friends my portfolio site and they can see a cat typing away, enticing them to click!
+
+![Screenshot of a link sent via text with a thumbnail image]([https://github.com/user-attachments/assets/2b453e33-3563-4703-9049-b4e22e6284cd](https://github.com/user-attachments/assets/1543f98a-c5ee-4ba9-a9e6-7c04fab0dff6))
+
