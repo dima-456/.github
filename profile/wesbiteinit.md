@@ -7,7 +7,7 @@ In this walkthrough, you will learn the ways to set up your site to make sure it
 - [Adding a site title](https://github.com/dima-456/.github/edit/main/profile/wesbiteinit.md#adding-a-site-title)
 - [Adding a site description](https://github.com/dima-456/.github/edit/main/profile/wesbiteinit.md#adding-a-site-description)
 - [Adding a thumbnail image](https://github.com/dima-456/.github/edit/main/profile/wesbiteinit.md#adding-a-thumbnail-image)
-- Adding a favicon
+- [Adding a favicon](https://github.com/dima-456/.github/blob/main/profile/wesbiteinit.md#adding-a-favicon)
 - Google analytics
 - Miscellaneous best practices
 
