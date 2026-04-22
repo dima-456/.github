@@ -94,7 +94,40 @@ I'm going to use my cat keyboard gif as my thumbnail image, so this is what I am
 <meta property="og:image" content="https://annaboone.github.io/images/catkeyboard.webp">
 ```
 
-Now I can text all my friends my portfolio site and they can see a cat typing away, enticing them to click!
+Now I can text all my friends my portfolio site and they can see a cat typing away, enticing them to click! 
 
-![Screenshot of a link sent via text with a thumbnail image]([https://github.com/user-attachments/assets/2b453e33-3563-4703-9049-b4e22e6284cd](https://github.com/user-attachments/assets/1543f98a-c5ee-4ba9-a9e6-7c04fab0dff6))
+![Screenshot of a link sent via text with a thumbnail image](https://github.com/user-attachments/assets/2a3c68f8-37ef-4789-9f9d-73bab53e58e1)
 
+## Adding a favicon
+
+Now I can send people my full link and they can open my portfolio site. Yay! When they do, they see my site title in the tab next to a gray globe. That globe is called a favicon, and that's the default option. But I don't like that, and it doesn't represent my site very well, so let's change it!
+
+![Screenshot of the tab with no favicon](https://github.com/user-attachments/assets/c0b96353-6e5e-46ba-9e88-b49288012dac)
+
+Your favicon is set in the `<head>` of your html page, just like the site description, title, and thumbnail image we have set up. The most common favicon ico format is a `.ico`, which is an atypical format. To get it, we need to take a few steps.
+
+First, we need to create the favicon. This is going to appear super small on your website, so you want it to be as simple as possible. An intial, an emoji, or a small icon will work best.
+
+Create your image on a square canvas no larger than **48 by 48 pixels.** Export your image as a .png.
+
+Now that our image is created, we are going to convert to a favicon using an online converter. [This is the one I use](https://www.icoconverter.com/) but you may find one you like more. There is also a Photoshop extension to save as a .ico. 
+
+A note if you use the link I sent above: These are the settings I use. **Make sure you hit the "Convert" button, and NOT the download buttons below (those are ads).**
+
+![Screenshot from the favicon icon converter](https://github.com/user-attachments/assets/aafb4edb-8038-49eb-84d2-3c1e32ef4b01)
+
+Move your new .ico file into your `images ` folder in your portfolio repo. From here, we can add it to our site `<head>  `. 
+
+```html
+<link rel="icon" href="your-image-path" type="image/x-icon">
+```
+
+I named my favicon "anna_favicon.ico" and placed it into my images folder. So this is the code I am using in my `<head>`:
+
+```html
+<link rel="icon" href="images/anna_favicon.ico" type="image/x-icon">
+```
+
+Now when I go to my site, I see my favicon in the tab next to my site title. Nice!
+
+![Screenshot from the favicon icon converter](https://github.com/user-attachments/assets/6a9d0ff1-0874-4eaf-b2b6-fcadbef61986)
